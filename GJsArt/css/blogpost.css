@@ -217,16 +217,14 @@ article .col .post {
         /* start of phone styles  */
     
     main {
-        width: 99vw; /* actually gives screen its width */
+        width: 203vw; /* actually gives screen its width */
         height: auto;
         margin: 0rem;
     }
        
     main article {
-        width: auto;
         height: auto;
         margin: auto;
-        border: #4cd7ff solid .3rem;
     }
               
     article .col {
