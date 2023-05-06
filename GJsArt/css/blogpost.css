@@ -1,0 +1,434 @@
+
+body{
+    background: radial-gradient(circle, rgba(76,215,255,1) 35%, rgba(0,52,255,1) 100%);
+    width: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+ 
+/* GRID FOR ELEMENTS */
+.layout {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat (3, 1fr); /* fix */
+    grid-template-rows: 100px auto 100px;
+}
+
+header {
+    background: radial-gradient(circle, rgba(0,52,255,1) 35%, rgba(76,215,255,1) 100%);
+    grid-column-start: span 3;
+}
+
+main {
+    background: radial-gradient(circle, rgba(0,52,255,1) 35%, rgba(76,215,255,1) 100%);
+    grid-column-start: span 2;
+}
+
+aside {
+    background: radial-gradient(circle, rgba(76,215,255,1) 35%, rgba(0,52,255,1) 100%);
+    grid-column-start: span 1;
+}
+
+footer {
+    background: radial-gradient(circle, rgba(0,52,255,1) 35%, rgba(76,215,255,1) 100%);
+    grid-column-start: span 3;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    box-shadow: 3px 5px 8px rgb(192, 236, 238);
+    position: sticky;
+    top: 0;
+    z-index: 99;   
+}
+
+nav {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    background: radial-gradient(circle, rgba(76,215,255,1) 35%, rgba(0,52,255,1) 100%);
+    box-shadow: 1px 2px 4px 3px #4cd7ff;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .875rem;
+}
+
+nav span .logo {
+    height: 100%;
+    font-size: 17px;
+    color: whitesmoke;
+    margin-left: .5rem;
+    float: left;
+    /* way to vertically align center */
+    display: table; 
+}
+
+nav div .sitename {
+    font-size: 21px;
+    color: white;
+    height: 100%;
+    /* how to center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ul .navigation {
+    float: right;
+    height: 100%;
+}
+
+nav ul li {
+    font-size: 15px;
+    display: table;
+    width: auto;
+    margin: 0rem;
+    float: right;
+    height: 100%;
+    padding: 0 15px;
+}
+
+ul li a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    float: inherit;
+    margin: 0rem;
+}
+
+@media screen and (max-width: 1064x) {
+
+    header { 
+        width: auto; /* controls width screen */ 
+        }
+    nav {
+        width: 90%;
+        }
+    nav div .sitename {
+        font-size: 17px;
+        }
+        
+    nav ul li a{
+        font-size: 15px;
+        } 
+
+}  
+   
+@media screen and (max-width: 780px) {
+   /*   start of medium tablet styles- stops at 900px */
+   
+    nav {
+        width: 95%;
+        }
+   
+}
+    
+@media screen and (max-width: 428px) {
+
+    nav {
+    width: auto;
+    }
+
+}   
+
+/* main */
+main {
+    width: 98.7vw;
+    height: auto;
+    margin: 0rem;
+}
+
+main article {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+
+article .col {
+    width: 49.5%;
+}
+
+.col .post .postimg {
+    display: inline-flex;
+    width: 305px;
+    height: 346px;
+    margin-left: 6.5rem;
+    border: #4cd7ff solid .2rem;
+}
+
+article .col .post {
+    margin-top: .5rem;
+    width: 98vw;
+}
+
+    
+@media screen and (max-width: 901px) {
+    /* start of tablet styles- stops at 900px */
+    main {
+        height: auto;
+        margin: 0rem;
+        width: 100vw;
+    }
+    main article {
+          /* single column; no aside */
+        display: flex;
+        flex-direction: column;
+    }
+    article .col{
+        width: 100%;
+    }    
+    
+    .col div {
+        margin: auto;
+    }
+    .col .post .postimg {
+        width: 205px;
+        height: 306px;
+        justify-content: space-evenly;
+      
+    }
+    } 
+
+@media screen and (max-width: 421px) {
+        /* start of phone styles  */
+    
+    main {
+        width: 99vw; /* actually gives screen its width */
+        height: auto;
+        margin: 0rem;
+    }
+       
+    main article {
+        width: auto;
+        height: auto;
+        margin: auto;
+        border: #4cd7ff solid .3rem;
+    }
+              
+    article .col {
+        width: auto;
+    }
+
+    article .col .post{
+        width: auto;  
+        
+    }
+    
+    .col .post .postimg {
+        width: 205px;
+        height: 306px;
+       margin: .5rem auto;
+       
+      display: table-cell;
+        vertical-align: middle;
+
+    }
+
+    }   
+    
+      
+
+/* footer */
+/* start of desktop styles */
+
+footer {
+    width: 100%; /* contols width of screen */
+    height: 8vh;
+    display: table;
+    box-shadow: 1px 2px 4px 3px #4cd7ff;
+   
+}
+
+footer .inner_footer {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: table;
+    background: radial-gradient(circle, rgba(76,215,255,1) 35%, rgba(0,52,255,1) 100%);
+    box-shadow: 1px 3px 4px 4px #4cd7ff;
+}
+  
+footer .footer_link p{
+    font-size: 13px;
+  }
+
+  footer a i:hover {
+    background-color: white;
+    font-size: 19px;
+    
+  }
+
+div .footer_logo {
+    margin: 3rem ;
+    display: block;
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 21px;
+    color: white;
+}   
+
+.inner_footer .footer_link {
+    margin: 1rem 3rem 1rem 9rem;
+    display: block;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.inner_footer .footer_link:last-child {
+    margin-left: 0rem;
+}
+
+.inner_footer .footer_link h1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.footer_link a {
+    display: flex;
+    margin-top: .2rem;
+    color: black;
+}
+
+.social {
+    width: auto;
+    height: auto;        
+    margin-right: 0rem;
+    display: inline-flex;
+    opacity: 0.75;
+} 
+
+.social a {
+    margin: 1.1rem;
+    opacity: inherit;
+}
+
+.yt i {
+    color: red;
+}
+.tt  i {
+    color: black;
+}
+
+.inner_footer span {
+    margin: 0rem;
+    float: right;
+    height: auto;
+    width: auto;
+}  
+
+.inner_footer span p {
+    font-size: 15px;
+    width: 130px;
+    float: inherit;
+    margin-top: 6rem;
+}
+
+.navarrow i {
+    color: blue;
+    float: right;
+    width: auto;
+    font-size: 15px;
+    margin: 0rem 0rem 0rem 18rem;
+}
+
+@media screen and (max-width: 1064px) {
+    /* 281px fix to 1039*/
+  
+    footer {
+        width: auto; /* gives width of screen */
+    }     
+    
+    footer .inner_footer {
+        width: 94%;
+    } 
+    
+    .inner_footer span p{
+        margin: 1rem 0rem 0rem 44rem ;
+    }  
+    
+    .inner_footer .footer_link {
+        margin: .7rem 0.5rem 0rem 4.5rem;
+        width: 125px;
+    }
+     
+    div .footer_logo {
+        margin: 2.5rem 1rem;
+    } 
+    }
+
+
+@media only screen and (max-width: 830px) and (oreientation:landscape){
+
+
+ }
+
+@media screen and (max-width: 780px) {
+   /*  start of medium tablet styles- stops at 767px */
+
+    .inner_footer span p{
+        margin: 1rem 0rem 0rem 14rem ;
+    } 
+    
+    .inner_footer .footer_link {
+        margin: 1rem .5rem 1rem .5rem;
+        
+    }
+
+    .navarrow i{
+        margin: 0rem 0rem 0rem 26rem;
+    } 
+    }
+
+@media screen and (max-width: 428px) {
+    /* start of phone styles 280-420px */
+
+    footer .inner_footer {
+        width: auto;
+    } 
+
+    .inner_footer span p {
+        margin: 0rem 0rem 0rem 22rem;
+    } 
+
+    .inner_footer .footer_link {
+        margin: .7rem .1rem 0rem .5rem;
+    }
+
+    }
+
+@media screen and (max-width: 310px) {
+    /* 281px */
+  
+}
+
+
+
+
