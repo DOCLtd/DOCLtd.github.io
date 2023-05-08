@@ -2,4 +2,4 @@
 Blogs by Andre Hylton
 
 
-Click here to visit GJs Art Blog; DOCLtd.github.io/GJsArt/ 
+Click here to visit GJs Art Blog; https://docltd.github.io/GJsArt/
