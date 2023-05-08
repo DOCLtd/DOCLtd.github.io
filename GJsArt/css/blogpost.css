@@ -186,7 +186,7 @@ article .col .post {
 }
 
     
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 1064px) {
     /* start of tablet styles- stops at 900px */
     main {
         height: auto;
@@ -213,7 +213,7 @@ article .col .post {
     }
     } 
 
-@media screen and (max-width: 421px) {
+@media screen and (max-width: 428px) {
         /* start of phone styles  */
     
     main {
