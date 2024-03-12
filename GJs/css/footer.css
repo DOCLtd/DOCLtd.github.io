@@ -1,0 +1,141 @@
+footer {
+    height: 200px;
+    color: #66fcf1;
+}
+
+footer > .inner-footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* Left Column */
+.inner-footer > .footer-left-col {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inner-footer > .footer-left-col > .footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.inner-footer > .footer-left-col > .footer-logo img {
+    width: 190px;
+    border-radius: 70%;
+    box-shadow: 1px 3px 4px 4px#254e58;
+}
+
+/* Center Column */
+.inner-footer > .footer-center-col {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.footer-center-col > .footer-contact-info, .footer-social-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.inner-footer > .footer-center-col h1 {
+   font-size: 30px;
+   transition: 0.5s; 
+}
+
+.inner-footer > .footer-center-col h1:hover {
+    letter-spacing: .1rem;
+ }
+ 
+.footer-center-col > .footer-contact-info > a {
+    text-decoration: none;
+    color: #66fcf1;
+}
+
+.footer-center-col > .footer-contact-info > span {
+    padding: .5rem;
+    color: #e3e2df;
+}
+
+.footer-center-col > .footer-contact-info > span i:hover {
+    color: #254e58;
+    font-size: 1.5rem;
+}
+
+.footer-center-col > .footer-contact-info > span i {
+    transition: 1s;
+    text-decoration: none;
+}
+
+
+.footer-center-col > .footer-social-info > .social-links {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-center-col > .footer-social-info > .social-links > a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    opacity: 0.75;
+    transition: 1s;
+}
+
+.footer-center-col > .footer-social-info > .social-links > a:hover {
+    font-size: 25px;
+    box-shadow: 1px 3px 4px 4px #66fcf1;
+    border-radius: 1rem;
+}
+
+.yt i {
+    color: red;
+}
+
+.tt  i {
+    background-color: white;
+    color: black;
+}
+
+/* Right Column */
+.inner-footer > .footer-right-col {
+    display: flex;
+    padding: 5rem .5rem 1rem .5rem;
+}
+
+.footer-right-col > .copyright-info {
+    padding: 2rem .5rem 0rem .5rem; 
+    color: #e3e2df;
+}
+
+.footer-right-col >  .footer-navarrow {
+    padding-top: 5rem; 
+    font-size: 25px;
+}
+
+.footer-right-col >  .footer-navarrow:hover {
+    font-size: 35px;
+}
+
+.footer-right-col >  .footer-navarrow i {
+    color: #e3e2df;
+    transition: 1s;
+}
+
+.footer-right-col >  .footer-navarrow i:hover {
+    color: #cc8099; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
