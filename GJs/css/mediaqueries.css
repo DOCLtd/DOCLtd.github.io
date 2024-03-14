@@ -150,18 +150,18 @@
         grid-gap: 10px;
     }
 
-    .main-aside-columns > .contact-grid-cols > main {
+    .main-aside-columns > .contact-grid-cols > .main-contact {
         padding: 10px;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 
-    .contact-grid-cols > aside > .logo img {
+    .contact-grid-cols > .aside-contact > .logo img {
         width: auto;
     }
 
-    .contact-grid-cols > aside > .logo {
+    .contact-grid-cols > .aside-contact > .logo {
         justify-content: center;
     }
 
