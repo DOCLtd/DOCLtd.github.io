@@ -1,18 +1,22 @@
-@media (max-width: 675px) {
+@media (max-width: 541px) {
             /* Header */
-    header > .inner-header {
-        padding: 20px 10px;
+    header {
+        margin: .5rem;
+        height: auto;
     }
-
-    header > .inner-header > .header-right-column {
-        display: grid;  
-        grid-gap: 0.5rem;
+    header > .inner-header {
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
     }
 
             /* HomePage */
     /*  */
-    .banner-image {
-        padding: 50px 65px;
+
+    .banner-image > .top-heading, .bottom-heading {
+        padding: 1px;
+        width: 200px;
+        margin: 1rem;
     }
 
     /*  */
@@ -22,15 +26,15 @@
         box-shadow: 1px 3px 4px 4px #66fcf1;
     }
 
-    .main-aside-columns > main {
+    .main-aside-columns > .main-index {
         order: 1;
     }
 
-    .main-aside-columns > aside {
+    .main-aside-columns > .aside-index {
         order: 2;
     }
 
-    main > article > .article-col {
+    .main-index > .article-index > .article-col {
         grid-template-columns: 1fr;
     }
 
@@ -82,13 +86,18 @@
 
                 /* Gallery */
     article {
-        padding: .25rem;
+        padding: 2rem .5rem;
+        background-color: #e3e2df;
     }
 
     article > .gallery-images {
         grid-template-columns: 1fr 1fr;
-        width: 450px;
-        padding: .5rem;
+        width: 340px;
+        padding: 0.25rem;
+    }
+
+    .gallery-images > .gallery-col {
+        padding: 0.25em;
     }
 
     article > .gallery-bestimages {
@@ -97,23 +106,42 @@
 
     article > .gallery-bestimages > .gallery-col {
         flex-direction: column;
-        width: 460px;
+        width: 340px;
         padding: .25rem;
     }
 
-                /* About */
-    main > article {
-        padding: 1rem .25rem .25rem .25rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-    }  
-    
-    main > article img {
-        margin: auto;
+    .gallery-images > .gallery-col > .gallery-postimg img {
+        margin: .25rem;
     }
 
-    main > article p {
+    .gallery-images > .gallery-col > .gallery-postimg img:hover {
+        transform: translatez(10px);
+   }
+
+   article > .gallery-bestimages > .gallery-col > .gallery-postimg img:hover{
+    transform: translatez(10px);
+}
+
+    
+                /* About */
+    .main-about > .article-about {
+        padding: 0rem .25rem .25rem .25rem;
+    }  
+    
+    .main-about > .article-about > .article-aboutimg > img {
+        margin: .5rem;
+        height: 250px;
+        width: auto;
+    }
+
+    .main-about > .article-about > .article-aboutimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .main-about > .article-about p {
         padding: .25rem;
     }
 
@@ -123,7 +151,7 @@
         grid-gap: 10px;
     }
 
-    main {
+    .main-aside-columns > .contact-grid-cols > main {
         padding: 10px;
         display: flex;
         align-items: center;
@@ -145,4 +173,8 @@
     .form-details > textarea {
         width: 80%;
     }
+}
+
+@media (max-width: 913px) {
+    /* Header */
 }
