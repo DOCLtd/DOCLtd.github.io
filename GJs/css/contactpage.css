@@ -6,36 +6,36 @@
     box-shadow: inset 0px -26px 59px -3px #254e58;
 }
 
-.contact-grid-cols > aside {
+.contact-grid-cols > .aside-contact {
     margin: 20px 0px;
     text-align: right;
     font-size: 1.25em;
 }
 
-.contact-grid-cols > aside > .logo {
+.contact-grid-cols >.aside-contact > .logo {
     display: flex;
     padding: 20px;
 }
 
-.contact-grid-cols > aside > .logo img {
+.contact-grid-cols > .aside-contact > .logo img {
     width: 100%;
     margin-bottom: 20px;
     box-shadow: 1px 3px 4px 4px #254e58;
 }
 
-.contact-grid-cols > aside > .blogger-details {
+.contact-grid-cols > .aside-contact > .blogger-details {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
 }
 
-.contact-grid-cols > aside > .blogger-details i {
+.contact-grid-cols > .aside-contact > .blogger-details i {
     color: #254e58;
 }
 
 /*  */
-main {
+.main-contact {
     padding: 20px;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ main {
     margin: 1rem;
 }
 
-main > .form-details {
+.main-contact > .form-details {
     margin: 20px 0px;
 }
 
@@ -106,12 +106,12 @@ main > .form-details {
 }
 
 /*  */
-main > .form-button {
+.main-contact > .form-button {
     display: flex;
     justify-content: center;
 }
 
-main > .form-button > .btn {
+.main-contact > .form-button > .btn {
     background-color: #254e58;
     color: black;
     font-size: 1.25em;
