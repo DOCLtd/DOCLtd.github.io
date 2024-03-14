@@ -1,23 +1,23 @@
-main {
+.main-about {
     display: flex;
     justify-content: center;
     width: auto;
     margin: auto;
 }
 
-main > article {
+.main-about > .article-about {
     background: #e3e2df;
     padding: 4rem 14rem 0rem 14rem;
 }
 
-main > article > img{
+.main-about > .article-about > .article-aboutimg > img{
     width: 350px;
     margin: 25px;
     float: left;
     box-shadow: 1px 3px 4px 4px #254e58;
 }
 
-main > article p {
+.main-about > .article-about p {
     letter-spacing: 1px;
     line-height: 30px;
     text-align: justify;
@@ -25,8 +25,7 @@ main > article p {
     padding-top: 2rem;
 }
 
-main > article > p::first-letter {
+.main-about > .article-about > p::first-letter {
     font-weight: bold;
     font-size: 3rem;
-    
 } 
