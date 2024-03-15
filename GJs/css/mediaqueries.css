@@ -13,10 +13,6 @@
             /* HomePage */
     /*  */
 
-    .banner-image {
-        background-size: 230%;
-    }
-            
     .banner-image > .top-heading, .bottom-heading {
         padding: 1px;
         width: 200px;
