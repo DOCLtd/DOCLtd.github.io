@@ -1,11 +1,8 @@
 /* Hero Section Styles */
 .banner-image {
-    background-image: url(/GJs/images/banner.jpg);
-    height: 450px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(/GJs/images/banner.jpg)  no-repeat center fixed;
     background-size: cover;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
