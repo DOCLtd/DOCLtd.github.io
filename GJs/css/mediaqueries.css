@@ -14,8 +14,7 @@
     /*  */
 
     .banner-image {
-        background-size: cover;
-        width: 300px;
+        background-size: 900px;
     }
             
     .banner-image > .top-heading, .bottom-heading {
