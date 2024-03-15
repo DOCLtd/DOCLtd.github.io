@@ -10,12 +10,14 @@
         flex-direction: column;
     }
 
-            /* HomePage */
+             /* HomePage */
     /*  */
 
     .banner-image {
         margin: 1rem;
         width: auto;
+        padding: 50px 10px;
+        background-color: #66fcf1;
     }
 
     /*  */
