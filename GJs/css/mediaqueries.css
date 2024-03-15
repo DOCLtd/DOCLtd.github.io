@@ -11,7 +11,17 @@
     }
 
              /* HomePage */
-
+    /* Hero Section Styles */
+    .banner-image {
+        width: 85%;
+        height: 500px;
+        background-image: url('/GJs/images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 2px solid #e9385a;
+        margin: 1rem;
+    }
+            
     /*  */
     .main-aside-columns {
         display: grid;
