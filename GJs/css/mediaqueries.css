@@ -11,6 +11,11 @@
     }
 
             /* HomePage */
+    /* Hero Section Styles */
+    .banner-image {
+    background-size: 100%;
+    width: 100%;
+    }
 
     .banner-image > .top-heading, .bottom-heading {
         padding: 1px;
