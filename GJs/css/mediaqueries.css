@@ -10,7 +10,14 @@
         flex-direction: column;
     }
 
-             /* HomePage */            
+            /* HomePage */
+
+    .banner-image > .top-heading, .bottom-heading {
+        padding: 1px;
+        width: 200px;
+        margin: 1rem;
+    }
+
     /*  */
     .main-aside-columns {
         display: grid;
