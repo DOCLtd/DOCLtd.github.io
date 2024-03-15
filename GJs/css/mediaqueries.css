@@ -13,10 +13,9 @@
             /* HomePage */
     /*  */
 
-    .banner-image > .top-heading, .bottom-heading {
-        padding: 1px;
-        width: 200px;
+    .banner-image {
         margin: 1rem;
+        width: auto;
     }
 
     /*  */
