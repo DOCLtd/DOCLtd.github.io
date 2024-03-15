@@ -1,14 +1,16 @@
+/* Hero Section Styles */
 .hero-section {
     position: relative;
     height: 400px;
     overflow: hidden;
     display: flex;
     align-items: center;
+    background-color: #cc8099;
 }
 
 .banner-image {
     position: absolute;
-    background: url(/GJs/images/banner.jpg)  no-repeat center fixed;
+    background: url(/GJs/images/banner.jpg) no-repeat center fixed;
     background-size: cover;
     height: 350px;
     width: 100%;
