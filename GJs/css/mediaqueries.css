@@ -14,10 +14,10 @@
     /*  */
 
     .banner-image {
+        background-image: url(/GJs/images/banner.jpg);
+        height: 300px;
         margin: 1rem;
-        width: auto;
         padding: 50px 10px;
-        background-color: #66fcf1;
     }
 
     /*  */
