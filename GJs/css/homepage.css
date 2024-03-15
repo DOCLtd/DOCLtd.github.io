@@ -1,7 +1,6 @@
 /* Hero Section Styles */
 .banner-image {
     background-image: url(/GJs/images/banner.jpg);
-    padding: 100px 35px;
     height: 450px;
     background-attachment: fixed;
     background-position: center;
@@ -49,7 +48,7 @@
     padding: 0rem .5rem;
 }
 
-.aside-index > section {
+.aside-index > .section-index {
     width: auto;
     margin: auto;
     position: relative;
@@ -59,13 +58,13 @@
     overflow: hidden;
 }
 
-.aside-index > section > .image-slider {
+.aside-index > .section-index > .image-slider {
     flex-direction: column;
     height: calc(150px *18);
     animation: scroll 25s linear infinite;
 }
 
-.aside-index > section > .image-slider:hover {
+.aside-index > .section-index > .image-slider:hover {
     animation-play-state: paused;
 }
 
@@ -79,7 +78,7 @@
     
 }
 
-section > .image-slider > .slide-image {
+.section-index > .image-slider > .slide-image {
     height: 200px;
     width: auto;
     display: flex;
@@ -99,8 +98,8 @@ section > .image-slider > .slide-image {
 }
 
 /* Image Shadow */
-section::before, 
-section::after {
+.section-index::before, 
+.section-index::after {
     background: linear-gradient(to top, rgba(255,255,255,1)0%,rgba(255,255,255,0)100%);
     content: '';
     width: 100%;
@@ -109,11 +108,11 @@ section::after {
     z-index: 2; /*   */
 }
 
-section::before {
+.section-index::before {
     top: 0; /*   */
 }
 
-section::after{
+.section-index::after{
     bottom: 0; /*   */
     transform: rotateX(180deg);
 }
@@ -211,7 +210,6 @@ section::after{
     font-weight: bold;
     font-size: 3rem;
 } 
-
 
 
 
