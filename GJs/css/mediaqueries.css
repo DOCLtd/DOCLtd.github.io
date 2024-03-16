@@ -1,3 +1,64 @@
+
+@media (max-width: 1023px) {
+    /* HomePage */
+        /*  */
+    .main-aside-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 1px 3px 4px 4px #66fcf1;
+    }
+
+    .main-aside-columns > .main-index {
+    order: 1;
+    }
+
+    .main-aside-columns > .aside-index {
+    order: 2;
+    }
+
+    .main-index > .article-index > .article-col {
+    grid-template-columns: 1fr 1fr;
+    }
+
+/*  */
+    .image-slider > .slide-image img {
+    width: 250px;
+    }
+    /* FOOTER */
+    footer {
+    height: auto;
+    }
+
+    /* GALLERY */
+    .article-gallery > .gallery-images {
+    width: 700px;
+    }
+
+    .article-gallery > .gallery-bestimages > .gallery-col {
+    width: 680px;
+    }
+
+    .gallery-images > .gallery-col > .gallery-postimg {
+    width: 135px;
+    }
+
+    .article-gallery > .gallery-bestimages > .gallery-col > .gallery-postimg {
+    width: 245px;
+    margin: .5rem;
+    }
+
+     /* ABOUT */
+    .main-about > .article-about {
+    padding: 4rem 10rem 0rem 10rem;
+    }
+
+    /* CONTACT */
+    .form-details > textarea {
+    width: 90%;
+    }
+}
+
+
 @media (max-width: 541px) {
             /* Header */
     header {
@@ -178,64 +239,7 @@
     }
 }
 
-@media (max-width: 1023px) {
-            /* HomePage */
-    /*  */
-    .main-aside-columns {
-        display: grid;
-        grid-template-columns: 1fr;
-        box-shadow: 1px 3px 4px 4px #66fcf1;
-    }
 
-    .main-aside-columns > .main-index {
-        order: 1;
-    }
-
-    .main-aside-columns > .aside-index {
-        order: 2;
-    }
-
-    .main-index > .article-index > .article-col {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    /*  */
-    .image-slider > .slide-image img {
-        width: 250px;
-    }
-            /* FOOTER */
-    footer {
-        height: auto;
-    }
-
-            /* GALLERY */
-    .article-gallery > .gallery-images {
-        width: 700px;
-    }
-
-    .article-gallery > .gallery-bestimages > .gallery-col {
-        width: 680px;
-    }
-
-    .gallery-images > .gallery-col > .gallery-postimg {
-        width: 135px;
-    }
-
-    .article-gallery > .gallery-bestimages > .gallery-col > .gallery-postimg {
-        width: 245px;
-        margin: .5rem;
-    }
-
-             /* ABOUT */
-    .main-about > .article-about {
-        padding: 4rem 10rem 0rem 10rem;
-    }
-
-            /* CONTACT */
-    .form-details > textarea {
-        width: 90%;
-    }
-}
 
 @media (max-width: 359px) {
             /* HOMEPAGE */
@@ -305,7 +309,6 @@
     }
 
             /* GALLERYPAGE */
-    
 
     .article-gallery > .gallery-images {
         width: 200px;
