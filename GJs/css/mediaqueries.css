@@ -71,6 +71,7 @@
         height: 240px;
     }
 
+     /* FOOTER */
     .inner-footer > .footer-center-col {
         padding: .5rem;
         flex-direction: column;
@@ -86,6 +87,42 @@
 
     .footer-right-col > .footer-navarrow {
         padding-top: 13rem;
+    }
+
+            /* GALLERYPAGE */
+    .article-gallery > .gallery-images {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article-gallery > .gallery-bestimages > .gallery-col {
+        flex-direction: column;
+    }
+
+    .article-gallery > .gallery-images {
+        width: 500px;
+        padding: 0rem;
+    }
+
+    .article-gallery > .gallery-bestimages {
+        padding: 0rem;
+    }
+
+    .article-gallery > .gallery-bestimages > .gallery-col {
+        width: 480px;
+    }
+
+            /* ABOUTPAGE */
+    .main-about > .article-about {
+        padding: 4rem 2rem 0rem 2rem;
+    }
+        
+            /* CONTACTPAGE */
+    .form-details > input {
+        width: 90%;
+    }
+
+    .form-details > textarea {
+        width: 80%;
     }
 }
 
