@@ -6,14 +6,12 @@
     display: flex;
     align-items: center;
     background-color: #cc8099;
-}
-
-.banner-image {
-    position: absolute;
     background: url(/GJs/images/banner.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 350px;
-    width: 100%;
+}
+
+.hero-section > .banner-image {
+    position: absolute;
 }
 
 .banner-image > .top-heading, .bottom-heading {
