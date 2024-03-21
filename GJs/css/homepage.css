@@ -1,13 +1,14 @@
 /* Hero Section Styles */
 .hero-section {
+    background: url(/GJs/images/banner.jpg) no-repeat center fixed;
+    background-size: auto;
     position: relative;
     height: 400px;
+    width: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
     background-color: #cc8099;
-    background: url(/GJs/images/banner.jpg) no-repeat center center fixed;
-    background-size: cover;
 }
 
 .hero-section > .banner-image {
