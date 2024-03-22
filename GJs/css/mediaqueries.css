@@ -146,8 +146,7 @@
             /* HomePage */
     /* Hero Section Styles */
     .hero-section {
-        background-position: 50% 100%;
-        background-size: 220% -40%;
+        background-size: 220% 120%;
         padding: 0px;
     }
 
