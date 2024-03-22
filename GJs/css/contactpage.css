@@ -6,6 +6,7 @@
     box-shadow: inset 0px -26px 59px -3px #254e58;
 }
 
+/* FIRST COLUMN  */
 .contact-grid-cols > .aside-contact {
     margin: 20px 0px;
     text-align: right;
@@ -34,7 +35,7 @@
     color: #254e58;
 }
 
-/*  */
+/* SECOND COLUMN  */
 .main-contact {
     padding: 20px;
     display: flex;
@@ -42,7 +43,7 @@
     flex-direction: column;
     margin: 1rem;
 }
-
+            /* Forms  */
 .main-contact > .form-details {
     margin: 20px 0px;
 }
@@ -105,7 +106,7 @@
     transform: translateY(1rem);
 }
 
-/*  */
+            /* Button  */
 .main-contact > .form-button {
     display: flex;
     justify-content: center;
@@ -127,7 +128,7 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
 }
 
-/*  */
+/* MAP */
 .embed-map {
     box-shadow: inset 0px -26px 59px -3px #254e58;
 }
