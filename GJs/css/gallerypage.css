@@ -5,6 +5,8 @@
     align-items: center;
 }
 
+/* Top Images */
+
 .article-gallery > .gallery-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -43,7 +45,7 @@
      transform: translatez(20px);
 }
 
-/*  */
+/* Bottom Images */
 .article-gallery > .gallery-bestimages {
     padding: 1rem;
 }
