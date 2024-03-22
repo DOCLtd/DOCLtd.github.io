@@ -55,16 +55,17 @@
     }
 }
 
-@media (max-width: 735px) {
+@media (max-width: 769px) {
         /* HOMEPAGE */
     .hero-section {
-    background-size: 160% 110%;
+    background-size: 180% 110%;
     }
 
     header > .inner-header > .header-right-column {
     flex-direction: column;
     align-items: center;
     }
+
 
     .article-postinfo > .userinfo {
         flex-direction: column;
