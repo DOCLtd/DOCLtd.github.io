@@ -3,7 +3,7 @@
     background-attachment: fixed;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 160vw 80vh;
+    background-size: contain;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
