@@ -1,7 +1,7 @@
 /* Hero Section Styles */
 .hero-section {
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
