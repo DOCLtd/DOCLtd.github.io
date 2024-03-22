@@ -1,11 +1,14 @@
 /* Hero Section Styles */
 .hero-section {
+    background-color: #cc8099;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 70% 20%;
+    background-blend-mode: multiply;
     background-attachment: fixed;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 100vh;
-    min-width: 100vw;
+    
+    padding: 100px 0px;
     display: flex;
 }
 
