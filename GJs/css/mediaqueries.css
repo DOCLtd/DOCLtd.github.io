@@ -1,3 +1,4 @@
+
 @media (max-width: 1023px) {
     /* HomePage */
         /*  */
@@ -56,6 +57,9 @@
 
 @media (max-width: 735px) {
         /* HOMEPAGE */
+    .hero-section {
+    background-size: 100% 80%;
+    }
     header > .inner-header > .header-right-column {
     flex-direction: column;
     align-items: center;
@@ -140,15 +144,9 @@
 
             /* HomePage */
     /* Hero Section Styles */
-    .banner-image {
-    background-size: 100%;
-    width: 100%;
-    }
 
-    .banner-image > .top-heading, .bottom-heading {
-        padding: 1px;
-        width: 200px;
-        margin: 1rem;
+    .hero-section {
+    background-size: 140% 60%;
     }
 
     /*  */
@@ -307,13 +305,17 @@
 }
 
 
-
 @media (max-width: 359px) {
             /* HOMEPAGE */
     /* Header */
     header {
         margin: 0rem;
     }
+
+    .hero-section {
+        background-size: 180% 60%;
+    }
+
     /* Main/Aside */
     .main-index > .article-index > .article-col {
         grid-template-columns: 1fr;
