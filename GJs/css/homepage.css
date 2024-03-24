@@ -8,6 +8,7 @@
     background-position: 50% 50%;
     padding: 100px 0px;
     display: flex;
+    background-attachment: fixed;
 }
 
 .hero-section > .banner-headings {
