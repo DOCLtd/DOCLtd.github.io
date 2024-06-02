@@ -1,7 +1,8 @@
+ /* add tv and more laptop ones */
 
 @media (max-width: 1023px) {
-    /* HomePage */
-        /*  */
+            /* HOMEPAGE*/
+    /* Main-Aside Columns */
     .main-aside-columns {
     display: grid;
     grid-template-columns: 1fr;
@@ -132,7 +133,7 @@
 }
 
 @media (max-width: 541px) {
-            /* Header */
+            /* HEADER */
     header {
         margin: .5rem;
         height: auto;
@@ -143,7 +144,7 @@
         flex-direction: column;
     }
 
-            /* HomePage */
+            /* HOMEPAGE */
     /* Hero Section Styles */
     .hero-section {
         background-size: 220% 120%;
@@ -306,6 +307,7 @@
 }
 
 
+ /* Adujust to get 280 and 240 */
 @media (max-width: 359px) {
             /* HOMEPAGE */
     /* Header */
