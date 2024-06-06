@@ -1,0 +1,19 @@
+.hero-section > main > .landing-btn {
+    padding: 1rem;
+}
+
+main > .landing-btn > .btn {
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #254e58;;
+    border: solid black .1rem;
+}
+
+main > .landing-btn > .btn:hover {
+    color: black;
+    background-color: white;
+    transition: .5s;
+    
+}

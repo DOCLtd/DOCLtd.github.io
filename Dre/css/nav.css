@@ -1,0 +1,84 @@
+header {
+    height: 100px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+header > .inner-header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 800px;
+}
+
+/* Left Column */
+header > .inner-header > .header-left-column {
+    display: flex;
+    align-items: center;
+    width: auto;
+    font-size: 32px;
+}
+
+header > .inner-header > .header-left-column a {
+    text-decoration: none;
+    transition: 0.5s; 
+    border-radius: 5px;
+    padding: 6px;
+} 
+
+header > .inner-header > .header-left-column a:hover {
+    background-color: #254e58;
+    letter-spacing: 2px;
+} 
+
+/* Center Column */
+header > .inner-header > .header-center-column {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: auto;
+    line-height: 2rem;
+}
+
+.header-center-column > .site-name  {
+    font-size: 16px;
+}
+
+.header-center-column > .site-name a {
+    text-decoration: none;
+    transition: 0.5s; 
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.header-center-column > .site-name a:hover {
+    background-color: #254e58;
+    letter-spacing: 2px;
+}
+
+/* Right Column */
+header > .inner-header > .header-right-column {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+
+.header-right-column > .nav-link {
+    margin: 0.2rem;
+    font-size: 1rem;
+    position: relative;
+}
+
+.header-right-column > .nav-link a {
+    color: #e3e2df;
+    text-decoration: none;
+    transition: 0.5s; 
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.header-right-column > .nav-link a:hover {
+    background-color: #254e58;
+    letter-spacing: 2px;
+}

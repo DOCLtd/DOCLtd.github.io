@@ -1,0 +1,39 @@
+.hero-section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(../images/druwebsite001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > main {
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(10vh);
+    padding: 1rem;
+}
+
+main > .logo {
+    margin: auto;
+    padding: .5rem;
+}
+
+main > .logo > img {
+    height: 100%;
+    width: 150px;  
+    border-radius: 90%;
+    box-shadow: 1px 3px 4px 4px #254e58;
+}
+
+main > p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin: 2rem;
+    color: white;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 3.5rem;
+    padding: .5rem;
+}
+
