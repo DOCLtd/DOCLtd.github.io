@@ -1,8 +1,9 @@
 header {
-    height: 100px;
     width: 85%;
     margin: auto;
     display: flex;
+    position: absolute;
+    padding: 1rem;
 }
 
 header > .inner-header {

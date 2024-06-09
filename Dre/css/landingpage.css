@@ -1,16 +1,29 @@
-.hero-section {
+.inner-banner {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(../images/druwebsite001.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(../images/meadow\ back\ lp.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.hero-section {
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(../images/grass\ front\ lp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85% 85%;
+    padding: 8vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .hero-section > main {
     width: 85%;
-    height: 400px;
+    height: 300px;
     margin: auto;
     text-align: center;
-    transform: translateY(10vh);
+    transform: translateY(20vh);
     padding: 1rem;
 }
 
@@ -27,6 +40,7 @@ main > .logo > img {
 }
 
 main > p {
+    display: flex;
     font-size: 16px;
     line-height: 1.5rem;
     margin: 2rem;

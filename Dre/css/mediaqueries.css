@@ -1,0 +1,15 @@
+@media (max-width: 1035px) {
+            /* Landing Page*/
+    /* */ 
+    .hero-section > main {
+    transform: translateY(15vh);
+}   
+}
+
+@media (max-width: 769px) {
+     /* Landing Page*/
+      /* */ 
+    .hero-section > main {
+    transform: translateY(10vh);
+    } 
+}
