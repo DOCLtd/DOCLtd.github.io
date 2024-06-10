@@ -16,6 +16,8 @@
     position: absolute;
     top: 0;
     bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-section > main {
@@ -23,7 +25,7 @@
     height: 300px;
     margin: auto;
     text-align: center;
-    transform: translateY(20vh);
+    transform: translateY(5vh);
     padding: 1rem;
 }
 
@@ -43,7 +45,7 @@ main > p {
     display: flex;
     font-size: 16px;
     line-height: 1.5rem;
-    margin: 2rem;
+    margin: 1.5rem;
     color: white;
     letter-spacing: 1px;
     text-align: justify;

@@ -2,7 +2,7 @@
             /* Landing Page*/
     /* */ 
     .hero-section > main {
-    transform: translateY(15vh);
+    transform: translateY(1vh);
 }   
 }
 
@@ -10,6 +10,6 @@
      /* Landing Page*/
       /* */ 
     .hero-section > main {
-    transform: translateY(10vh);
+    transform: translateY(-5vh);
     } 
 }
