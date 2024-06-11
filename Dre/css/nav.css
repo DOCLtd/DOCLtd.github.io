@@ -8,6 +8,7 @@ header {
 
 header > .inner-header {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     margin: auto;
     width: 800px;
@@ -15,9 +16,6 @@ header > .inner-header {
 
 /* Left Column */
 header > .inner-header > .header-left-column {
-    display: flex;
-    align-items: center;
-    width: auto;
     font-size: 32px;
 }
 
@@ -26,6 +24,9 @@ header > .inner-header > .header-left-column a {
     transition: 0.5s; 
     border-radius: 5px;
     padding: 6px;
+    display: flex;
+    align-items: center;
+    margin: .5rem;
 } 
 
 header > .inner-header > .header-left-column a:hover {
@@ -42,18 +43,18 @@ header > .inner-header > .header-center-column {
     line-height: 2rem;
 }
 
-.header-center-column > .site-name  {
+.header-center-column > .job-field  {
     font-size: 16px;
 }
 
-.header-center-column > .site-name a {
+.header-center-column > .job-field a {
     text-decoration: none;
     transition: 0.5s; 
     border-radius: 5px;
     padding: 6px;
 }
 
-.header-center-column > .site-name a:hover {
+.header-center-column > .job-field a:hover {
     background-color: #254e58;
     letter-spacing: 2px;
 }

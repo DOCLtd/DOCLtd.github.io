@@ -2,14 +2,66 @@
             /* Landing Page*/
     /* */ 
     .hero-section > main {
-    transform: translateY(1vh);
-}   
+    transform: translateY(5vh);
+    }   
 }
 
 @media (max-width: 769px) {
      /* Landing Page*/
       /* */ 
+
+    main > p {
+    line-height: 1.1rem;
+    margin: 1rem;
+    letter-spacing: .8px;
+    }
+}
+
+@media (max-width: 541px) {
+    /* */
+    /* .inner-banner {
+      min-height: 140vh;
+  }
+
+  .hero-section {
+    min-height: 120vh;
+} */
+
+
+    header {
+    margin: .1rem;
+    padding: .1rem;
+    }
+    header > .inner-header { 
+    display: flex;
+    flex-direction: column;
+    padding: .1rem;
+    margin: .1rem;
+    }
+
     .hero-section > main {
-    transform: translateY(-5vh);
-    } 
+      height: 500px;
+    transform: translateY(13vh);
+    }
+
+    main > p {
+    line-height: .8rem;
+    margin: 1rem;
+    text-align: left;
+    text-indent: 1rem;
+    padding: .1rem;
+    }
+
+    .hero-section > main > .landing-btn {
+      padding: .1rem;
+  }
+
+}
+
+
+ /* Adujust to get 280 and 240 */
+ @media (max-width: 359px) {
+  /*  */
+/*  */
+
 }

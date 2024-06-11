@@ -1,5 +1,7 @@
 .hero-section > main > .landing-btn {
     padding: 1rem;
+    justify-content: center;
+    display: flex;
 }
 
 main > .landing-btn > .btn {

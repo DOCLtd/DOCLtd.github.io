@@ -22,7 +22,7 @@
 
 .hero-section > main {
     width: 85%;
-    height: 300px;
+    height: 450px;
     margin: auto;
     text-align: center;
     transform: translateY(5vh);
@@ -32,6 +32,9 @@
 main > .logo {
     margin: auto;
     padding: .5rem;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 main > .logo > img {
