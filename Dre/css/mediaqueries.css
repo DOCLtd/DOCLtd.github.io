@@ -19,15 +19,6 @@
 
 @media (max-width: 541px) {
     /* */
-    /* .inner-banner {
-      min-height: 140vh;
-  }
-
-  .hero-section {
-    min-height: 120vh;
-} */
-
-
     header {
     margin: .1rem;
     padding: .1rem;
@@ -40,11 +31,16 @@
     }
 
     .hero-section > main {
-      height: 500px;
-    transform: translateY(13vh);
+    height: 500px;
+    transform: translateY(15vh);
+    }
+
+    main > .logo > img {
+    width: 100px;
     }
 
     main > p {
+    font-size: 14px;
     line-height: .8rem;
     margin: 1rem;
     text-align: left;
@@ -54,14 +50,33 @@
 
     .hero-section > main > .landing-btn {
       padding: .1rem;
+      font-size: 14px;
+      padding: 8px 15px;
+      letter-spacing: 1px;
   }
 
 }
 
 
  /* Adujust to get 280 and 240 */
- @media (max-width: 359px) {
+ @media (max-width: 380px) {
   /*  */
-/*  */
 
+  header {
+    width: 80%;
+  }
+
+  header > .inner-header {
+    width: 300px;
+    padding-top: 4.2rem;
+}
+
+    .hero-section {
+      background-size: 80% 80%;
+      padding: 0rem;
+    }
+
+    main > p {
+      margin: 2rem;
+  }
 }
